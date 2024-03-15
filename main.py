@@ -3,7 +3,7 @@ import os
 def select_linux_distro():
     print("Select an option:")
     print("1. Choose from predefined ISOs")
-    print("2. Provide custom ISO file")
+    print("2. Use a local ISO file")
     choice = input("Enter your choice (1/2): ")
     if choice == '1':
         print("Select Linux distro to download:")
@@ -32,7 +32,7 @@ def select_linux_distro():
         }
         return distros.get(choice, None)
     elif choice == '2':
-        custom_iso = input("Enter the path to the custom ISO file: ")
+        custom_iso = input("Enter the path to your own ISO file: ")
         if os.path.exists(custom_iso):
             return custom_iso
         else:
