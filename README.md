@@ -1,4 +1,5 @@
 # fastusbflash
+# Warning! This script only works on linux. Windows version isnt done yet.
 
 Hey!
 
@@ -17,8 +18,6 @@ Now with FastUSBflash, you have the option to download all of your favorite dist
 You just select the distro, and it downloads and flashes it to your usb with ease.
 
 # How to use.
-
-Please note that this script is made to work on linux. I will make a windows version soon.
 
 Once you downloaded the main.py file from this repo, go ahead and execute the main.py file with sudo.
 
