@@ -7,7 +7,7 @@ def select_linux_distro():
     choice = input("Enter your choice (1/2): ")
     if choice == '1':
         print("Select Linux distro to download:")
-        print("1. Ubuntu")
+        print("1. Arch Linux")
         print("2. Fedora")
         print("3. Debian")
         print("4. Alpine Linux")
@@ -19,8 +19,8 @@ def select_linux_distro():
         print("10. Linux Mint")
         choice = input("Enter your choice (1-10): ")
         distros = {
-            '1': 'https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso',
-            '2': 'https://download.fedoraproject.org/pub/fedora/linux/releases/35/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-35-1.2.iso',
+            '1': 'https://mirror.aarnet.edu.au/pub/archlinux/iso/2024.03.01/archlinux-2024.03.01-x86_64.iso',
+            '2': 'https://mirror.arizona.edu/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso',
             '3': 'https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-standard.iso',
             '4': 'http://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-standard-3.14.2-x86_64.iso',
             '5': 'https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso',
