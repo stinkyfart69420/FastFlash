@@ -75,7 +75,6 @@ def main():
         os.system(f"sudo cfdisk /dev/{drive}")
         os.system(f"sudo umount /dev/{drive}*")
         flash_distro(iso_path, drive)
-        os.system(f"rm {iso_path}")
         print("Flashing complete.")
     else:
         print("Operation aborted.")
