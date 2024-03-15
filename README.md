@@ -9,7 +9,7 @@ FASTUSBFLASH
 
 Here are some of the features FastUsbFlash can do:
 
-# Download your favortie distro.
+# Download your favorite distro with ease.
 
 Now with FastUSBflash, you have the option to download all of your favorite distros with NO ADS and without opening a web browser.
 
