@@ -47,7 +47,7 @@ def download_iso(distro_url):
 
 def select_drive():
     print("Select the drive to flash the Linux distro:")
-    drives = os.listdir('/dev/') # Assuming Linux environment
+    drives = os.listdir('/dev/')
     for i, drive in enumerate(drives):
         print(f"{i+1}. {drive}")
     choice = int(input("Enter the drive number: "))
@@ -73,9 +73,9 @@ def main():
     confirmation = input(f"WARNING: All partitions on /dev/{drive} will be erased. Continue? (yes/no): ")
     if confirmation.lower() == 'yes':
         os.system(f"sudo cfdisk /dev/{drive}")
-        os.system(f"sudo umount /dev/{drive}*") # Unmount partitions before flashing
+        os.system(f"sudo umount /dev/{drive}*")
         flash_distro(iso_path, drive)
-        os.system(f"rm {iso_path}") # Delete the ISO file after flashing
+        os.system(f"rm {iso_path}")
         print("Flashing complete.")
     else:
         print("Operation aborted.")
