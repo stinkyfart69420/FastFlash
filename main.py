@@ -17,7 +17,8 @@ def select_linux_distro():
         print("8. Manjaro")
         print("9. EndeavourOS")
         print("10. Linux Mint")
-        choice = input("Enter your choice (1-10): ")
+        print("11. Artix Linux (openrc base)")
+        choice = input("Enter your choice (1-11): ")
         distros = {
             '1': 'https://mirror.aarnet.edu.au/pub/archlinux/iso/2024.03.01/archlinux-2024.03.01-x86_64.iso',
             '2': 'https://mirror.arizona.edu/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso',
@@ -28,7 +29,8 @@ def select_linux_distro():
             '7': 'https://channels.nixos.org/nixos-23.11/latest-nixos-minimal-x86_64-linux.iso',
             '8': 'https://download.manjaro.org/xfce/23.1.3/manjaro-xfce-23.1.3-minimal-240113-linux66.iso',
             '9': 'https://mirrors.urbanwave.co.za/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso',
-            '10': 'https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso'
+            '10': 'https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso',
+            '11': 'http://ftp.ntua.gr/pub/linux/artix-iso/artix-base-openrc-20230814-x86_64.iso'
         }
         return distros.get(choice, None)
     elif choice == '2':
