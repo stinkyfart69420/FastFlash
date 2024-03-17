@@ -38,3 +38,5 @@ After that, the distro of your choice will flash to your USB.
 # Need help?
 
 Contact linuxnerd_1@proton.me for questions about the script.
+
+(thanks @anselscool for the name idea)
