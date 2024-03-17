@@ -33,7 +33,7 @@ After you have done that, it should look like this:
 
 Now go ahead and write the changes, and then quit.
 
-After that, the distro of your choice will flash to the USB.
+After that, the distro of your choice will flash to your USB.
 
 # Need help?
 
