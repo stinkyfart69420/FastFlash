@@ -21,6 +21,8 @@ You just select the distro, and it downloads and flashes it to your usb with eas
 
 Once you downloaded the main.py file from this repo, go ahead and execute the main.py file with sudo.
 
+"sudo python3 main.py"
+
 After that, you are in the script.
 
 Now once you get to this screen that you see right here:
