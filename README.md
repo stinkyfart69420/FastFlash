@@ -1,17 +1,17 @@
-# fastusbflash
+# fastflash
 # Warning! This script only works on linux. Windows version isnt done yet.
 
 Hey!
 
 Are you tired of manually downloading your favorite distro's ISO files thru the web browser, and a bunch of ads pop up?
 Intoducing...
-FASTUSBFLASH
+FASTFLASH
 
 Here are some of the features FastUsbFlash can do:
 
 # Download your favorite distro with ease.
 
-Now with FastUSBflash, you have the option to download all of your favorite distros with NO ADS and without opening a web browser.
+Now with FastFlash, you have the option to download all of your favorite distros with NO ADS and without opening a web browser.
 
 ![image](https://github.com/stinkyfart69420/fastusbflash/assets/147311474/dfb22628-5a9f-4b0e-89bb-4824f622d22a)
 
