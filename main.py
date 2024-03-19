@@ -1,5 +1,8 @@
 import os
 
+print("This script requires sudo. Please enter your password to proceed.")
+os.system(f"sudo e")
+
 def select_linux_distro():
     print("Select an option:")
     print("1. Choose from predefined ISOs")
@@ -58,7 +61,7 @@ def select_drive():
 
 def flash_distro(iso_path, drive):
     print(f"Flashing {iso_path} to {drive}...")
-    os.system(f"dd if={iso_path} of=/dev/{drive} bs=4M status=progress")
+    os.system(f"sudo dd if={iso_path} of=/dev/{drive} bs=4M status=progress")
 
 def main():
     iso_path = select_linux_distro()
