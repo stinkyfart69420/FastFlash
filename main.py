@@ -1,6 +1,6 @@
 import os
 
-print("This script requires sudo. Please enter your password to proceed.")
+print("This script requires sudo to function properly. Please enter your password to proceed.")
 os.system(f"sudo e")
 
 def select_linux_distro():
