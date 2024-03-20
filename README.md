@@ -3,7 +3,7 @@
 
 Hey!
 
-Are you tired of manually downloading your favorite distro's ISO files thru the web browser, and a bunch of ads pop up?
+Are you tired of manually downloading your favorite distro'thru the boring way of using the web browser, and a bunch of ads pop up?
 Intoducing...
 FASTFLASH
 
