@@ -19,23 +19,36 @@ You just select the distro, and it downloads and flashes it to your usb with eas
 
 # How to use.
 
-Once you downloaded the main.py file from this repo, go ahead and execute the main.py file with sudo.
+First, go ahead and run the following commands in your terminal.
 
-"sudo python3 main.py"
+```
+git clone https://github.com/stinkyfart69420/FastFlash
+```
+Now, you may go into the FastFlash directory that was just created, and then run
+```
+python3 main.py
+```
 
-After that, you are in the script.
+You should see something like this.
+![image](https://github.com/stinkyfart69420/FastFlash/assets/147311474/d6b5525f-4ad1-4616-b489-3f062ffc4cbe)
 
-Now once you get to this screen that you see right here:
-![image](https://github.com/stinkyfart69420/fastusbflash/assets/147311474/1dc99c01-4a8e-40b6-9e18-055962a73a8c)
+Selecting 1 will give you a list of distros you can download.
+![image](https://github.com/stinkyfart69420/FastFlash/assets/147311474/e05aac77-0b8b-4e84-b126-2382b57210e9)
 
-You MUST delete all the partitions.
+Selcting any distro will start downloading it.
+![image](https://github.com/stinkyfart69420/FastFlash/assets/147311474/1b13d1b3-43b6-41d7-a916-72ace4af601a)
 
-After you have done that, it should look like this:
-![image](https://github.com/stinkyfart69420/fastusbflash/assets/147311474/31f6a7ce-86d2-4087-96f7-21bd17c5523b)
+Once done, you will be asked on which drive do you wanna flash the distro to.
+![Screenshot_20240322_205253](https://github.com/stinkyfart69420/FastFlash/assets/147311474/d216867a-ef09-40b8-b6fa-07d939de38fa)
 
-Now go ahead and write the changes, and then quit.
+(note: your drive should show up as sdb, sdc, sdd, etc.)
 
-After that, the distro of your choice will flash to your USB.
+After that, you will get a warning saying that your USB will be wiped. Make sure to backup all data before proceeding.
+
+Now once you get into a menu that looks like this, delete all the partitons, and then write the changes.
+![Screenshot_20240322_205513](https://github.com/stinkyfart69420/FastFlash/assets/147311474/9c6f72a1-5ee5-49dd-b6c3-ae368d3f4761)
+
+After that, the distro of your choice will start flashing to your USB.
 
 # Need help?
 
