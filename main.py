@@ -7,6 +7,7 @@ def select_linux_distro():
     print("Select an option:")
     print("1. Choose from predefined ISOs")
     print("2. Use a local ISO file")
+    print("0. Exit")
     choice = input("Enter your choice (1/2): ")
     if choice == '1':
         print("Select Linux distro to download:")
