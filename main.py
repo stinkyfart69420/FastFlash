@@ -34,7 +34,7 @@ def select_linux_distro():
             '8': 'https://download.manjaro.org/xfce/23.1.3/manjaro-xfce-23.1.3-minimal-240113-linux66.iso',
             '9': 'https://mirrors.urbanwave.co.za/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso',
             '10': 'https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso',
-            '11': 'http://ftp.ntua.gr/pub/linux/artix-iso/artix-base-openrc-20230814-x86_64.iso'
+            '11': 'https://iso.artixlinux.org/weekly-iso/artix-base-openrc-20240304-x86_64.iso'
         }
         return distros.get(choice, None)
     elif choice == '2':
