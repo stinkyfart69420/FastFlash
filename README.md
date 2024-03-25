@@ -1,4 +1,4 @@
-# fastflash
+# FastFlash (formerly FastUSBFlash)
 # Warning! This script only works on linux. Windows version isnt done yet.
 
 Hey!
