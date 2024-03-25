@@ -7,7 +7,7 @@ Are you tired of manually downloading your favorite distro thru the boring way o
 Intoducing...
 FASTFLASH
 
-Here are some of the features FastUsbFlash can do:
+Here are some of the features FastFlash can do:
 
 # Download your favorite distro with ease.
 
@@ -52,6 +52,6 @@ After that, the distro of your choice will start flashing to your USB.
 
 # Need help?
 
-Contact linuxnerd_1@proton.me for questions about the script.
+Contact linuxnerd@bleedingbox.dev for questions about this software.
 
 (thanks @anselscool for the name idea)
