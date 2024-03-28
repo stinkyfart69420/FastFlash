@@ -2,6 +2,7 @@ import os
 
 # This software is copyrighted. You may not steal the source code, unless i allow you to.
 # For permission to copy this software's source code, email me. 
+# linuxnerd@bleedingbox.dev
 
 print("This script requires sudo to function properly. Please enter your password to proceed.")
 os.system(f"sudo e")
