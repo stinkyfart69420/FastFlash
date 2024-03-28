@@ -1,5 +1,7 @@
 import os
 
+# This software is copyrighted.
+
 print("This script requires sudo to function properly. Please enter your password to proceed.")
 os.system(f"sudo e")
 
