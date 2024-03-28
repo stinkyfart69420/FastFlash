@@ -55,3 +55,5 @@ After that, the distro of your choice will start flashing to your USB.
 Contact linuxnerd@bleedingbox.dev for questions about this software.
 
 (thanks @anselscool for the name idea)
+
+This software is Copyrighted. Please do NOT fork the repo, or steal my source code.
