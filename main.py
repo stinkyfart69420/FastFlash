@@ -1,11 +1,13 @@
 import os
 
-# This software is copyrighted.
+# This software is copyrighted. You may not repost this software ANYWHERE.
 
 print("This script requires sudo to function properly. Please enter your password to proceed.")
 os.system(f"sudo e")
 
 def select_linux_distro():
+    print("Welcome to FastFlash.")
+    print("Copyright, stikyfart69420.")
     print("Select an option:")
     print("1. Choose from predefined ISOs")
     print("2. Use a local ISO file")
