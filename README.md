@@ -1,5 +1,5 @@
 # FastFlash (formerly FastUSBFlash)
-# Warning! This script only works exclusively on linux.
+# Windows Version can be found here: https://github.com/The-Nebula-Developers/ISO-Yeeter (BETA)
 
 Hey!
 
