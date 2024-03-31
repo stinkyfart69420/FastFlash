@@ -4,6 +4,7 @@ import os
 # For permission to copy this software's source code, email me. 
 # linuxnerd@bleedingbox.dev
 
+os.system("clear")
 print("This script requires sudo to function properly. Please enter your password to proceed.")
 os.system(f"sudo e")
 
