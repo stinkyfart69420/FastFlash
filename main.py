@@ -31,10 +31,11 @@ def select_linux_distro():
         print("9. EndeavourOS")
         print("10. Linux Mint")
         print("11. Artix Linux (openrc base)")
+        print("12. Archcraft")
         print("0. Exit")
         choice = input("Enter your choice (1-11): ")
         distros = {
-            '1': 'https://au.mirrors.cicku.me/archlinux/iso/2024.04.01/archlinux-2024.04.01-x86_64.iso',
+            '1': 'https://au.mirrors.cicku.me/archlinux/iso/2024.05.01/archlinux-2024.04.01-x86_64.iso',
             '2': 'https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso',
             '3': 'https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-standard.iso',
             '4': 'http://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-standard-3.14.2-x86_64.iso',
@@ -44,7 +45,7 @@ def select_linux_distro():
             '8': 'https://download.manjaro.org/xfce/23.1.3/manjaro-xfce-23.1.3-minimal-240113-linux66.iso',
             '9': 'https://mirrors.urbanwave.co.za/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso',
             '10': 'https://mirrors.cicku.me/linuxmint/iso/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso',
-            '11': 'https://iso.artixlinux.org/weekly-iso/artix-base-openrc-20240330-x86_64.iso'
+            '11': 'https://iso.artixlinux.org/weekly-iso/artix-base-openrc-20240428-x86_64.iso'
         }
         return distros.get(choice, None)
     elif choice == '2':
