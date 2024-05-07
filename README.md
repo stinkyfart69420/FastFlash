@@ -13,7 +13,8 @@ Here are some of the features FastFlash can do:
 
 Now with FastFlash, you have the option to download all of your favorite distros with NO ADS and without opening a web browser.
 
-![image](https://github.com/stinkyfart69420/fastusbflash/assets/147311474/dfb22628-5a9f-4b0e-89bb-4824f622d22a)
+![image](https://github.com/stinkyfart69420/FastFlash/assets/147311474/63a2f117-4fb1-43f5-bdc3-5be22e7fc893)
+
 
 You just select the distro, and it downloads and flashes it to your usb with ease.
 
