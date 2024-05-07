@@ -31,7 +31,6 @@ def select_linux_distro():
         print("9. EndeavourOS")
         print("10. Linux Mint")
         print("11. Artix Linux (openrc base)")
-        print("12. Archcraft")
         print("0. Exit")
         choice = input("Enter your choice (1-11): ")
         distros = {
