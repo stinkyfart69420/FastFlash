@@ -39,7 +39,7 @@ def select_linux_distro():
             '3': 'https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-standard.iso',
             '4': 'http://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-standard-3.14.2-x86_64.iso',
             '5': 'https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso',
-            '6': 'https://distfiles.gentoo.org/releases/amd64/autobuilds/20240312T171909Z/install-amd64-minimal-20240312T171909Z.iso',
+            '6': 'https://distfiles.gentoo.org/releases/amd64/autobuilds/20240505T170430Z/install-amd64-minimal-20240505T170430Z.iso',
             '7': 'https://channels.nixos.org/nixos-23.11/latest-nixos-minimal-x86_64-linux.iso',
             '8': 'https://download.manjaro.org/xfce/23.1.3/manjaro-xfce-23.1.3-minimal-240113-linux66.iso',
             '9': 'https://mirrors.urbanwave.co.za/endeavouros/iso/EndeavourOS_Galileo-Neo-2024.01.25.iso',
