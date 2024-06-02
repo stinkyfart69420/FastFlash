@@ -34,7 +34,7 @@ def select_linux_distro():
         print("0. Exit")
         choice = input("Enter your choice (1-11): ")
         distros = {
-            '1': 'https://au.mirrors.cicku.me/archlinux/iso/2024.05.01/archlinux-2024.04.01-x86_64.iso',
+            '1': 'https://au.mirrors.cicku.me/archlinux/iso/2024.06.01/archlinux-2024.06.01-x86_64.iso',
             '2': 'https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso',
             '3': 'https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-standard.iso',
             '4': 'http://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86_64/alpine-standard-3.14.2-x86_64.iso',
