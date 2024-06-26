@@ -1,6 +1,10 @@
 # FastFlash (formerly FastUSBFlash)
 # Windows Version can be found here: https://github.com/The-Nebula-Developers/ISO-Yeeter (BETA)
 
+# WARNING: WINDOWS ISOS WILL NOT WORK.
+
+# Introduction.
+
 Hey!
 
 Are you tired of manually downloading your favorite distro thru the boring way of using the web browser, and a bunch of ads pop up?
