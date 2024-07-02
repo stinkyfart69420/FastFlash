@@ -1,3 +1,5 @@
+# FASTFLASH IS NOW DISCONTINUED.
+
 # FastFlash (formerly FastUSBFlash)
 # Windows Version can be found here: https://github.com/The-Nebula-Developers/ISO-Yeeter (BETA)
 
